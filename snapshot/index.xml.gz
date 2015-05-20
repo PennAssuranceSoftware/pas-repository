@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<repository increment='1432160710293' name='Penn Assurance Software Snapshots(Local)' xmlns='http://www.osgi.org/xmlns/repository/v1.0.0'>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='run'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='1.0.0.201505202057'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='542b39f0fb9654a2ffb4d80d22f77e73de4d9426ecb60fcff194a07a8266ad7d'/>
+      <attribute name='url' value='run/run-1.0.0.jar'/>
+      <attribute name='size' type='Long' value='1361'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='run'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.201505202057'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='run'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.201505202057'/>
+    </capability>
+    <requirement namespace='osgi.ee'>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='ui.base'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='1.0.0.201505202057'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='92ea5b353265cdb953fc73e04bae4a73eab652e7f86f72c865b1ae25ab8d4d4a'/>
+      <attribute name='url' value='ui.base/ui.base-1.0.0.jar'/>
+      <attribute name='size' type='Long' value='67711731'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='ui.base'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.201505202057'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='ui.base'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.201505202057'/>
+    </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=javax.ws.rs)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.ee'>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+    </requirement>
+  </resource>
+</repository>
