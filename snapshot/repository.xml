@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
+
+<repository lastmodified='20150520183750.923' name='Amdatu snapshots'>
+  <resource id='run/1.0.0.201505202057' presentationname='run' symbolicname='run' uri='run/run-1.0.0.jar' version='1.0.0.201505202057'>
+    <size>
+      1361
+    </size>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='run'/>
+      <p n='symbolicname' v='run'/>
+      <p n='version' t='version' v='1.0.0.201505202057'/>
+    </capability>
+  </resource>
+  <resource id='ui.base/1.0.0.201505202057' presentationname='ui.base' symbolicname='ui.base' uri='ui.base/ui.base-1.0.0.jar' version='1.0.0.201505202057'>
+    <size>
+      67711731
+    </size>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='ui.base'/>
+      <p n='symbolicname' v='ui.base'/>
+      <p n='version' t='version' v='1.0.0.201505202057'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.ws.rs)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.ws.rs ;version=[1.1.0,2.0.0)
+    </require>
+  </resource>
+</repository>
